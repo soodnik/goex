@@ -1,0 +1,259 @@
+{
+    "Id": "e7924d46d79d7592ab34c1fd6c9b1c52daefd5ce5218864154f1215db3c2314f",
+    "Created": "2021-10-15T15:52:58.89355787Z",
+    "Path": "/bin/sh",
+    "Args": [
+        "-c",
+        "echo Container started\ntrap \"exit 0\" 15\n\nwhile sleep 1 & wait $!; do :; done"
+    ],
+    "State": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2021-10-15T15:52:59.23420787Z",
+        "FinishedAt": "2021-10-15T23:49:17.3770185Z"
+    },
+    "Image": "sha256:9d5dda484400897c57ee253385d214b93eb8b545266c2bcda7f6ac954a4a33dc",
+    "ResolvConfPath": "/var/lib/docker/containers/e7924d46d79d7592ab34c1fd6c9b1c52daefd5ce5218864154f1215db3c2314f/resolv.conf",
+    "HostnamePath": "/var/lib/docker/containers/e7924d46d79d7592ab34c1fd6c9b1c52daefd5ce5218864154f1215db3c2314f/hostname",
+    "HostsPath": "/var/lib/docker/containers/e7924d46d79d7592ab34c1fd6c9b1c52daefd5ce5218864154f1215db3c2314f/hosts",
+    "LogPath": "/var/lib/docker/containers/e7924d46d79d7592ab34c1fd6c9b1c52daefd5ce5218864154f1215db3c2314f/e7924d46d79d7592ab34c1fd6c9b1c52daefd5ce5218864154f1215db3c2314f-json.log",
+    "Name": "/festive_franklin",
+    "RestartCount": 0,
+    "Driver": "overlay2",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "",
+    "ExecIDs": null,
+    "HostConfig": {
+        "Binds": null,
+        "ContainerIDFile": "",
+        "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+        },
+        "NetworkMode": "default",
+        "PortBindings": {},
+        "RestartPolicy": {
+            "Name": "no",
+            "MaximumRetryCount": 0
+        },
+        "AutoRemove": false,
+        "VolumeDriver": "",
+        "VolumesFrom": null,
+        "CapAdd": null,
+        "CapDrop": null,
+        "CgroupnsMode": "host",
+        "Dns": [],
+        "DnsOptions": [],
+        "DnsSearch": [],
+        "ExtraHosts": null,
+        "GroupAdd": null,
+        "IpcMode": "private",
+        "Cgroup": "",
+        "Links": null,
+        "OomScoreAdj": 0,
+        "PidMode": "",
+        "Privileged": false,
+        "PublishAllPorts": false,
+        "ReadonlyRootfs": false,
+        "SecurityOpt": null,
+        "UTSMode": "",
+        "UsernsMode": "",
+        "ShmSize": 67108864,
+        "Runtime": "runc",
+        "ConsoleSize": [
+            0,
+            0
+        ],
+        "Isolation": "",
+        "CpuShares": 0,
+        "Memory": 0,
+        "NanoCpus": 0,
+        "CgroupParent": "",
+        "BlkioWeight": 0,
+        "BlkioWeightDevice": [],
+        "BlkioDeviceReadBps": null,
+        "BlkioDeviceWriteBps": null,
+        "BlkioDeviceReadIOps": null,
+        "BlkioDeviceWriteIOps": null,
+        "CpuPeriod": 0,
+        "CpuQuota": 0,
+        "CpuRealtimePeriod": 0,
+        "CpuRealtimeRuntime": 0,
+        "CpusetCpus": "",
+        "CpusetMems": "",
+        "Devices": [],
+        "DeviceCgroupRules": null,
+        "DeviceRequests": null,
+        "KernelMemory": 0,
+        "KernelMemoryTCP": 0,
+        "MemoryReservation": 0,
+        "MemorySwap": 0,
+        "MemorySwappiness": null,
+        "OomKillDisable": false,
+        "PidsLimit": null,
+        "Ulimits": null,
+        "CpuCount": 0,
+        "CpuPercent": 0,
+        "IOMaximumIOps": 0,
+        "IOMaximumBandwidth": 0,
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Source": "vscode-remote-try-python-41cc2ee6f8cb6b0cee4c350f9a78ef53",
+                "Target": "/workspaces"
+            },
+            {
+                "Type": "volume",
+                "Source": "vscode",
+                "Target": "/vscode"
+            }
+        ],
+        "MaskedPaths": [
+            "/proc/asound",
+            "/proc/acpi",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/sys/firmware"
+        ],
+        "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+        ]
+    },
+    "GraphDriver": {
+        "Data": {
+            "LowerDir": "/var/lib/docker/overlay2/5ac7b370af1221469abc4334a9a2e71746ee5e948890395027a0aad936c2a08e-init/diff:/var/lib/docker/overlay2/k2xgqlz6v2ix1a118yhwra1km/diff:/var/lib/docker/overlay2/zladnj0505bv9nq3qs5jh6xqx/diff:/var/lib/docker/overlay2/9264710f99703a7d4dbf1a963ad6fd0ddcc898a9a8f4d7c38564bc1aeee6b1b7/diff:/var/lib/docker/overlay2/bb054902f688e2aeccbd2f945d5dc2f7c851385901f054e0c935adab270c7ed9/diff:/var/lib/docker/overlay2/d946c720c2a385d5b886d383feb24a16fc2b8ba4850b29168e8d69ffd1019b19/diff:/var/lib/docker/overlay2/5d8e70ee2c05cd3374397220788e38358119456b20e5aef70a9bf97fe7ac1168/diff:/var/lib/docker/overlay2/03d7a74692d15d97fa387bd004cbfcd22663122fcb9953d9fab896ee3a957e57/diff:/var/lib/docker/overlay2/5f81cfb84e38c616ff889eebf5980db330a9d162aba2cd2c69f9d7f7ff169a77/diff:/var/lib/docker/overlay2/7c0712d940743ff166140443c9d0b721172f2b653652c28b3d74e03265a04f9b/diff:/var/lib/docker/overlay2/be8820609304c2ac556d570bbbdb8efebf25c35ce12b04157b11ed9c520c07ce/diff:/var/lib/docker/overlay2/e3a2945d52877f1416864c6110958f6daf9559a0ad370934444385033952e41d/diff:/var/lib/docker/overlay2/f75af514089c9347aff26a201e2c32513cd4ec9cc67421a043cc1b857a937d54/diff:/var/lib/docker/overlay2/227550e0ff078b25d2fb6d320f2bfd088c34ae0b07697e9a5d6057d5e0407f73/diff:/var/lib/docker/overlay2/a66fc5e28e74b002a44d63d81dd6a5ec4202500be15b6b57a5e86a0b4bc6ecd2/diff:/var/lib/docker/overlay2/46e0b4bfd16a6ce87416a481d2e08fde91de2a95c3450cb145de8401367caeab/diff:/var/lib/docker/overlay2/6b364d26765437639eeed6f0d55449ad0fab11542baaccc1ef42ce99dbcc02a2/diff",
+            "MergedDir": "/var/lib/docker/overlay2/5ac7b370af1221469abc4334a9a2e71746ee5e948890395027a0aad936c2a08e/merged",
+            "UpperDir": "/var/lib/docker/overlay2/5ac7b370af1221469abc4334a9a2e71746ee5e948890395027a0aad936c2a08e/diff",
+            "WorkDir": "/var/lib/docker/overlay2/5ac7b370af1221469abc4334a9a2e71746ee5e948890395027a0aad936c2a08e/work"
+        },
+        "Name": "overlay2"
+    },
+    "Mounts": [
+        {
+            "Type": "volume",
+            "Name": "vscode-remote-try-python-41cc2ee6f8cb6b0cee4c350f9a78ef53",
+            "Source": "/var/lib/docker/volumes/vscode-remote-try-python-41cc2ee6f8cb6b0cee4c350f9a78ef53/_data",
+            "Destination": "/workspaces",
+            "Driver": "local",
+            "Mode": "z",
+            "RW": true,
+            "Propagation": ""
+        },
+        {
+            "Type": "volume",
+            "Name": "vscode",
+            "Source": "/var/lib/docker/volumes/vscode/_data",
+            "Destination": "/vscode",
+            "Driver": "local",
+            "Mode": "z",
+            "RW": true,
+            "Propagation": ""
+        }
+    ],
+    "Config": {
+        "Hostname": "e7924d46d79d",
+        "Domainname": "",
+        "User": "",
+        "AttachStdin": false,
+        "AttachStdout": true,
+        "AttachStderr": true,
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": [
+            "PATH=/usr/local/pip-global/bin:/usr/local/share/nvm/current/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/py-utils/bin",
+            "LANG=C.UTF-8",
+            "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+            "PYTHON_VERSION=3.10.0",
+            "PYTHON_PIP_VERSION=21.2.4",
+            "PYTHON_SETUPTOOLS_VERSION=57.5.0",
+            "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d781367b97acf0ece7e9e304bf281e99b618bf10/public/get-pip.py",
+            "PYTHON_GET_PIP_SHA256=01249aa3e58ffb3e1686b7141b4e9aac4d398ef4ac3012ed9dff8dd9f685ffe0",
+            "PIPX_HOME=/usr/local/py-utils",
+            "PIPX_BIN_DIR=/usr/local/py-utils/bin",
+            "NVM_DIR=/usr/local/share/nvm",
+            "NVM_SYMLINK_CURRENT=true",
+            "PIP_TARGET=/usr/local/pip-global",
+            "PYTHONPATH=/usr/local/pip-global:"
+        ],
+        "Cmd": [
+            "-c",
+            "echo Container started\ntrap \"exit 0\" 15\n\nwhile sleep 1 & wait $!; do :; done"
+        ],
+        "Image": "vsc-vscode-remote-try-python-41cc2ee6f8cb6b0cee4c350f9a78ef53",
+        "Volumes": null,
+        "WorkingDir": "",
+        "Entrypoint": [
+            "/bin/sh"
+        ],
+        "OnBuild": null,
+        "Labels": {
+            "com.visualstudio.code.devcontainers.id": "python-3",
+            "com.visualstudio.code.devcontainers.release": "v0.202.5",
+            "com.visualstudio.code.devcontainers.source": "https://github.com/microsoft/vscode-dev-containers/",
+            "com.visualstudio.code.devcontainers.timestamp": "Fri, 15 Oct 2021 00:53:17 GMT",
+            "com.visualstudio.code.devcontainers.variant": "3.10-bullseye",
+            "version": "0.203.0",
+            "vsch.local.repository": "https://github.com/Microsoft/vscode-remote-try-python",
+            "vsch.local.repository.folder": "vscode-remote-try-python",
+            "vsch.local.repository.volume": "vscode-remote-try-python-41cc2ee6f8cb6b0cee4c350f9a78ef53",
+            "vsch.quality": "stable",
+            "vsch.remote.devPort": "0"
+        }
+    },
+    "NetworkSettings": {
+        "Bridge": "",
+        "SandboxID": "a4312fdd8cd3094d05d2a9791094cd9cef24047000bcec184bc5cd0366640fdb",
+        "HairpinMode": false,
+        "LinkLocalIPv6Address": "",
+        "LinkLocalIPv6PrefixLen": 0,
+        "Ports": {},
+        "SandboxKey": "/var/run/docker/netns/a4312fdd8cd3",
+        "SecondaryIPAddresses": null,
+        "SecondaryIPv6Addresses": null,
+        "EndpointID": "",
+        "Gateway": "",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "IPAddress": "",
+        "IPPrefixLen": 0,
+        "IPv6Gateway": "",
+        "MacAddress": "",
+        "Networks": {
+            "bridge": {
+                "IPAMConfig": null,
+                "Links": null,
+                "Aliases": null,
+                "NetworkID": "7ac1037113f2380a74524d952ae50675639c61b35bc000498645273e24c467bb",
+                "EndpointID": "",
+                "Gateway": "",
+                "IPAddress": "",
+                "IPPrefixLen": 0,
+                "IPv6Gateway": "",
+                "GlobalIPv6Address": "",
+                "GlobalIPv6PrefixLen": 0,
+                "MacAddress": "",
+                "DriverOpts": null
+            }
+        }
+    },
+    "CreatedTime": 1634313178893
+}
